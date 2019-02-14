@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.x1aoshou.dao">
+<!--
+    <select id="queryBookById" resultType="Book" parameterType="int">
+        SELECT
+            *
+        FROM
+            books
+        WHERE
+            book_id = #{id}
+    </select>
+
+    <select id="queryAllBook" resultType="Book">
+        SELECT
+            *
+        FROM
+            books
+    </select>
+
+    <update id="reduceNumber" parameterType="int">
+        UPDATE
+            books
+        SET
+            number = number - 1
+        WHERE
+            book_id = #{id}
+        AND
+            number > 0
+    </update>
+
+    <update id="increaseNumber" parameterType="int">
+        UPDATE
+        books
+        SET
+        number = number + 1
+        WHERE
+        book_id = #{id}
+    </update>-->
+
+</mapper>
